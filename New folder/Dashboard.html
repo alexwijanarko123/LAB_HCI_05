@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - FinManage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo">
+  <img src="logo.png" alt="Logo FinManage">
+  <span>FinManage</span>
+</div>
+    <nav>
+      <a href="Dashboard.html">Dashboard</a>
+      <a href="mycard.html">My Card</a>
+      <a href="mywallet.html">My Wallet</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+    <div class="bottom">
+      <div class="profile">
+  <img src="profile.png" >
+  <span>Adrian Tira</span>
+</div>
+    </div>
+  </aside>
+
+  <main>
+    <h1>Dashboard</h1>
+    <div class="statistic">
+      <p>Income Chart (dummy)</p>
+      <canvas id="chart" width="600" height="300"></canvas>
+      <div style="margin-top: 10px;">
+        <button>Daily</button>
+        <button>Weekly</button>
+        <button>Monthly</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
